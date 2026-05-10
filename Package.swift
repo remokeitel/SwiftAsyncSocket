@@ -21,7 +21,10 @@ let package = Package(
         .target(
             name: "SwiftAsyncSocket"),
         .testTarget(
-            name: "ClientTests",
+            name: "TCP_Test",
+            dependencies: ["SwiftAsyncSocket"]),
+        .testTarget(
+            name: "UDP_Test",
             dependencies: ["SwiftAsyncSocket"]),
     ]
 )
