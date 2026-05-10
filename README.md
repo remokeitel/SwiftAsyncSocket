@@ -37,7 +37,7 @@ This package was forked from SwiftAsnycSocket on 1st Sept 2024.
 Simply add the package dependency to your project using the following Package URL:
 
 ```
-https://github.com/thethinkingman/SwiftAsyncSocket
+https://github.com/remokeitel/SwiftAsyncSocket
 ```
 
 
